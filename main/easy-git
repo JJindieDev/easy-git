@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+
+
+# Notes: resolve the real script path so the command also works through a symlink.
+project_directory = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, project_directory)
+
+from easy_git import main
+
+
+sys.exit(main())
