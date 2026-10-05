@@ -1,9 +1,8 @@
 __pycache__/
+*.py[cod]
 
 .agents/
-
 .codex/
-
 .venv/
 
-setup_done,flag/
+setup_done.flag
